@@ -20,6 +20,21 @@ export const Video = () => {
               da aplicação e integrando a API GraphQL gerada pela plataforma no
               nosso front-end utilizando Apollo Client.
             </p>
+
+            <div className="flex items-center gap-4 mt-6">
+              <img
+                className="w-16 h-16 rounded-full border-2 border-green-500"
+                src="https://github.com/RafaelMartinsRibeiro.png"
+                alt=""
+              />
+
+              <div className="leading-relaxed">
+                <strong className="text-2xl font-bold block">Rafael Martins</strong>
+                <span className="text-sm text-gray-200 block">
+                  Front-end Developer
+                </span>
+              </div>
+            </div>
           </div>
 
           <div className="flex flex-col gap-4">
@@ -41,7 +56,9 @@ export const Video = () => {
           </div>
         </div>
 
-        <div></div>
+        <div>
+          
+        </div>
       </div>
     </div>
   );
